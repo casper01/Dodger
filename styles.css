@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#board {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url("space.png");
+	z-index: -1;
+}
+#images {
+	display: none;
+}
+
+#score p {
+	color: white;
+	font-weight: bold;
+}
+#score {
+	position: absolute;
+	margin: 1em;
+	font-size: 2em;
+}
+
+#startScreen {
+	position: absolute;
+	display: table;
+	width: 100%;
+	height: 100%;
+	background: black;
+	color: white;
+	text-align: center;
+}
+#startScreen p {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 3em;
+}
